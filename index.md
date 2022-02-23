@@ -1,37 +1,65 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta name="theme-color" content="#202020"/>
+  <title>Crom&aacute;tica Labs</title>
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="icon" type="ico/jpg" href="img/ico.jpg" sizes="18x18">
+</head>
+  <body>
+    <header>
+      <!-- Barra de navegacion  -->
 
-You can use the [editor on GitHub](https://github.com/DGuzman23/DGuzman23..github.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/DGuzman23/DGuzman23..github.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+      <div class="navbar-fixed ">
+        <nav class="grey darken-4 z-depth-5" role="navigation">
+          <div class="nav-wrapper grey darken-4 container">
+            <a href="index.html" class="brand-logo center logo"><img class="responsive-img" src="img/logo.png"></a>
+          </div>
+        </nav>
+      </div>
+        <!-- Lista en modo movil fuera del nav para no sombrear  -->
+        <ul id="nav-mobile" class="side-nav">
+          <div class="center-align">
+            <img class="responsive-img" src="img/logo.png">
+        </div>
+        </ul> 
+    </header>
+    <main class="valign-wrapper">
+      <!-- Texto   -->
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="focus2 center-align">
+            <span>C</span>
+            <span>L</span>
+            <span>E</span>
+            <span>A</span>
+            <span>R</span>
+            <span>W</span>
+            <span>A</span>
+            <span>T</span>
+            <span>E</span>
+            <span>R</span>
+          </div>
+      </div> 
+      </main>
+    <!-- PIE DE PAGINA   -->
+    <footer class="page-footer grey darken-4">
+      <div class="container">
+        <div class="row">
+          <div class="col l12 s12">
+            <p class="grey-text text-lighten-4 center-align">Este sitio no es una p&aacute;gina web oficial de la UFG o Crom&aacute;tica.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!--  JScripts-->
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+  </body>
+</html>
